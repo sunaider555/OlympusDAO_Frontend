@@ -1,0 +1,64 @@
+// Keeps styling consistent across grant and project pages
+.project-content {
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "Euclid Square";
+
+  li {
+    // Same as standard
+    line-height: 20px;
+    font-size: 16px;
+  }
+}
+
+.metric {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.subtext {
+  color: #999999;
+  padding-top: 2px;
+}
+
+// Progress bar for projects
+.project-goal-progress {
+  padding-top: 10px;
+
+  .MuiLinearProgress-determinate {
+    height: 10px;
+    border-radius: 3px;
+  }
+
+  .MuiLinearProgress-barColorPrimary {
+    background: rgb(112, 139, 150);
+    background: linear-gradient(269deg, rgba(112, 139, 150, 1) 0%, rgba(247, 251, 231, 1) 100%);
+  }
+}
+
+.modal-confirmation-title {
+  color: #999999;
+}
+
+.give-tab-buttons {
+  margin-bottom: 10px;
+  // Restrict the height of the tab bar, so the indicator is 4px away
+  height: 40px;
+
+  .MuiTab-wrapper {
+    font-size: 24px;
+  }
+}
+
+.give-tab-buttons-xs {
+  .MuiTab-wrapper {
+    font-size: 14px;
+  }
+}
+
+.no-container-padding {
+  .MuiContainer-root {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
